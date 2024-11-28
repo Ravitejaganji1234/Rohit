@@ -37,7 +37,7 @@ const Login = () => {
 
         try {
             // Send login request to the backend
-            const response = await axios.post('https://sample-backend1.azurewebsites.net/api/v1/employeeManager/login', {
+            const response = await axios.post('https://mtlbackend.azurewebsites.net/api/v1/employeeManager/login', {
                 email: email,
                 password: password,
             });
@@ -126,7 +126,7 @@ const Login = () => {
             </main>
             <div className="welcome-container">
                 <h1 className="heading-secondary">
-                    Welcome to <span className="lg">MT Buddy!</span>
+                    Welcome to <span className="lg">Middleware Ravi Teja!</span>
                 </h1>
             </div>
         </div>
