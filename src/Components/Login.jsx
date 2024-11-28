@@ -126,7 +126,7 @@ const Login = () => {
             </main>
             <div className="welcome-container">
                 <h1 className="heading-secondary">
-                    Welcome to <span className="lg">Middleware Ravi Teja!</span>
+                    Welcome to <span className="lg">Middleware shiva!</span>
                 </h1>
             </div>
         </div>
